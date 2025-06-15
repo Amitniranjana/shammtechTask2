@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JustDial - India's largest local search engine. Find businesses, services, and products near you.">
+    <meta name="keywords" content="local search, business directory, services, products, India">
+    <title>JustDial - Local Search Engine | Find Businesses Near You</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <a href="#" class="logo" aria-label="JustDial homepage">
+                    <span class="logo-just">Just</span><span class="logo-dial">dial</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop" role="navigation" aria-label="Main navigation">
+                    <div class="nav-links">
+                        <a href="#" class="nav-link">
+                            <span class="material-icons">language</span>
+                            EN
+                        </a>
+                        <a href="#" class="nav-link">We are Hiring</a>
+                        <a href="#" class="nav-link">Investor Relations</a>
+                        <a href="#" class="nav-link">
+                            <span class="material-icons">mail_outline</span>
+                            Leads
+                            <span class="business-badge">BUSINESS</span>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <span class="material-icons">campaign</span>
+                            Advertise
+                        </a>
+                        <a href="#" class="nav-link">
+                            <span class="material-icons">list_alt</span>
+                            Free Listing
+                        </a>
+                        <a href="#" class="nav-link notification">
+                            <span class="material-icons">notifications</span>
+                        </a>
+                    </div>
+                    <button class="btn-login">Login / Sign Up</button>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" role="navigation" aria-label="Mobile navigation">
+                <div class="mobile-nav-content">
+                    <a href="#" class="mobile-nav-link">We are Hiring</a>
+                    <a href="#" class="mobile-nav-link">Investor Relations</a>
+                    <a href="#" class="mobile-nav-link">Leads</a>
+                    <a href="#" class="mobile-nav-link">Advertise</a>
+                    <a href="#" class="mobile-nav-link">Free Listing</a>
+                    <button class="btn-login mobile">Login / Sign Up</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Search Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Search across '<span class="highlight-number">5.9 Crore+</span>'
+                        <span class="highlight-text">Products & Services</span>
+                    </h1>
+
+                    <form class="search-form" role="search" aria-label="Search for products and services">
+                        <div class="search-container">
+                            <div class="location-input-wrapper">
+                                <span class="material-icons location-icon">location_on</span>
+                                <input type="text" class="location-input" placeholder="Mumbai" aria-label="Enter location">
+                            </div>
+                            <div class="search-input-wrapper">
+                                <input type="search" class="search-input" placeholder="Search for Spa & Salons" aria-label="Search for products and services">
+                                <button type="button" class="mic-btn" aria-label="Voice search">
+                                    <span class="material-icons">mic</span>
+                                </button>
+                            </div>
+                            <button type="submit" class="search-btn" aria-label="Search">
+                                <span class="material-icons">search</span>
+                            </button>
+                        </div>
+                    </form>
+
+                    <button class="download-app-btn">
+                        <span class="app-text">Download App</span>
+                        <span class="app-icon">Jd</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promotional Carousel -->
+        <section class="promo-section">
+            <div class="container">
+                <div class="promo-carousel">
+                    <!-- Main Loan Offer -->
+                    <div class="promo-card promo-main">
+                        <div class="promo-content">
+                            <h3>Get Loan Against Property</h3>
+                            <p>At a competitive interest rate starting from <strong>9.00%</strong></p>
+                            <p class="promo-provider">from Jio Finance Limited</p>
+                            <button class="promo-btn">Apply Now →</button>
+                        </div>
+                        <div class="promo-image">
+                            <img src="https://via.placeholder.com/150x200/4A90E2/FFFFFF?text=Professional" alt="Professional consultant">
+                        </div>
+                        <div class="carousel-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <!-- Service Cards -->
+                    <div class="service-cards">
+                        <div class="service-card b2b">
+                            <div class="service-icon">
+                                <span class="material-icons">business</span>
+                            </div>
+                            <div class="service-info">
+                                <h4>B2B</h4>
+                                <p>Quick Quotes</p>
+                            </div>
+                        </div>
+
+                        <div class="service-card repairs">
+                            <div class="service-icon">
+                                <span class="material-icons">build</span>
+                            </div>
+                            <div class="service-info">
+                                <h4>REPAIRS & SERVICES</h4>
+                                <p>Get Nearest Vendor</p>
+                            </div>
+                        </div>
+
+                        <div class="service-card real-estate">
+                            <div class="service-icon">
+                                <span class="material-icons">apartment</span>
+                            </div>
+                            <div class="service-info">
+                                <h4>REAL ESTATE</h4>
+                                <p>Finest Agents</p>
+                            </div>
+                        </div>
+
+                        <div class="service-card doctors">
+                            <div class="service-icon">
+                                <span class="material-icons">local_hospital</span>
+                            </div>
+                            <div class="service-info">
+                                <h4>DOCTORS</h4>
+                                <p>Book Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Grid -->
+        <section class="categories-section">
+            <div class="container">
+                <div class="categories-grid">
+                    <button class="category-item" aria-label="Restaurants">
+                        <span class="material-icons">restaurant</span>
+                        <span class="category-name">Restaurants</span>
+                    </button>
+                    <button class="category-item" aria-label="Hotels">
+                        <span class="material-icons">hotel</span>
+                        <span class="category-name">Hotels</span>
+                    </button>
+                    <button class="category-item" aria-label="Beauty & Spa">
+                        <span class="material-icons">spa</span>
+                        <span class="category-name">Beauty Spa</span>
+                    </button>
+                    <button class="category-item" aria-label="Home Decor">
+                        <span class="material-icons">home</span>
+                        <span class="category-name">Home Decor</span>
+                    </button>
+                    <button class="category-item" aria-label="Wedding Planning">
+                        <span class="material-icons">celebration</span>
+                        <span class="category-name">Wedding Planning</span>
+                    </button>
+                    <button class="category-item" aria-label="Education">
+                        <span class="material-icons">school</span>
+                        <span class="category-name">Education</span>
+                    </button>
+                    <button class="category-item" aria-label="Rent & Hire">
+                        <span class="material-icons">car_rental</span>
+                        <span class="category-name">Rent & Hire</span>
+                    </button>
+                    <button class="category-item" aria-label="Packers & Movers">
+                        <span class="material-icons">local_shipping</span>
+                        <span class="category-name">Packers & Movers</span>
+                    </button>
+                    <button class="category-item" aria-label="PG/Hostels">
+                        <span class="material-icons">bed</span>
+                        <span class="category-name">PG/Hostels</span>
+                    </button>
+                    <button class="category-item" aria-label="Estate Agents">
+                        <span class="material-icons">real_estate_agent</span>
+                        <span class="category-name">Estate</span>
+                    </button>
+                    <button class="category-item" aria-label="Dentists">
+                        <span class="material-icons">medical_services</span>
+                        <span class="category-name">Dentists</span>
+                    </button>
+                    <button class="category-item" aria-label="Gym & Fitness">
+                        <span class="material-icons">fitness_center</span>
+                        <span class="category-name">Gym</span>
+                    </button>
+                    <button class="category-item" aria-label="Loans">
+                        <span class="material-icons">account_balance</span>
+                        <span class="category-name">Loans</span>
+                    </button>
+                    <button class="category-item" aria-label="Event Organisers">
+                        <span class="material-icons">event</span>
+                        <span class="category-name">Event Organisers</span>
+                    </button>
+                    <button class="category-item" aria-label="Driving Schools">
+                        <span class="material-icons">drive_eta</span>
+                        <span class="category-name">Driving Schools</span>
+                    </button>
+                    <button class="category-item" aria-label="Courier Service">
+                        <span class="material-icons">local_post_office</span>
+                        <span class="category-name">Courier Service</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+          <div class="container1">
+        <div class="section-header">
+            <h1 class="section-title">Recent Activity</h1>
+            <p class="section-subtitle">Latest customer reviews and feedback</p>
+        </div>
+
+        <div class="activity-grid">
+            <!-- Boat Customer Care -->
+            <div class="activity-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #000 0%, #ff0000 100%);">
+                    <div class="service-badge">
+                        <div class="whatsapp-icon">📱</div>
+                        WhatsApp
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="company-info">
+                            <h3>Boat (Customer Care)</h3>
+                            <p class="company-location">Audio Brand</p>
+                        </div>
+                        <div class="rating">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewer-section">
+                        <div class="reviewer-avatar">SH</div>
+                        <div class="reviewer-info">
+                            <h4>shahaib</h4>
+                            <p class="reviewer-meta">Wrote a review</p>
+                        </div>
+                    </div>
+                    <p class="review-text">Boat Customer Care truly stands out with its exceptional service and support. The extensive range of products they offer is impressive, and the response time is remarkably quick.</p>
+                </div>
+            </div>
+
+            <!-- Jio Customer Care -->
+            <div class="activity-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #0066cc 0%, #004499 100%); display: flex; align-items: center; justify-content: center;">
+                    <div style="color: white; font-size: 2rem; font-weight: bold;">JIO</div>
+                </div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="company-info">
+                            <h3>Jio (Customer Care)</h3>
+                            <p class="company-location">Fort - Mumbai</p>
+                        </div>
+                        <div class="rating">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewer-section">
+                        <div class="reviewer-avatar">MC</div>
+                        <div class="reviewer-info">
+                            <h4>Mk Chaturvedi</h4>
+                            <p class="reviewer-meta">Wrote a review</p>
+                        </div>
+                    </div>
+                    <p class="review-text">Sir I Sir Mk chaturvedi mob/whatsapp no+919472039699 jindahi colony Post D.K jharkhand se fiber distuct more than 48 hours fully jio fiber ka 3008456883 my complaint number...</p>
+                </div>
+            </div>
+
+            <!-- The Taj Mahal Palace -->
+            <div class="activity-card">
+                <div class="card-image" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDQwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjZjBmOGZmIi8+CjxwYXRoIGQ9Ik0yMDAgNTBMMTUwIDEwMEwyNTAgMTAwWiIgZmlsbD0iI2VkOGEzNiIvPgo8cmVjdCB4PSIxNzAiIHk9IjEwMCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjgwIiBmaWxsPSIjZjRlNGJjIi8+CjxyZWN0IHg9IjE4MCIgeT0iMTIwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiNkNGVkZGEiLz4KPC9zdmc+'); background-size: cover;">
+                </div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="company-info">
+                            <h3>The Taj Mahal Palace</h3>
+                            <p class="company-location">Apollo Bunder - Mumbai</p>
+                        </div>
+                        <div class="rating">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewer-section">
+                        <div class="reviewer-avatar">ST</div>
+                        <div class="reviewer-info">
+                            <h4>Shivam Tiwari</h4>
+                            <p class="reviewer-meta">Wrote a review</p>
+                        </div>
+                    </div>
+                    <p class="review-text">I had a great time at The Taj Mahal Palace. The staff were very good and friendly. They helped me with everything I needed. The food was tasty and delicious. I loved every moment.</p>
+                </div>
+            </div>
+
+            <!-- Indigo Airlines -->
+            <div class="activity-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); display: flex; align-items: center; justify-content: center;">
+                    <div style="color: white; font-size: 1.5rem; font-weight: bold;">✈️ INDIGO</div>
+                </div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="company-info">
+                            <h3>Indigo Airlines (Customer Care)</h3>
+                            <p class="company-location">Fort - Mumbai</p>
+                        </div>
+                        <div class="rating">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewer-section">
+                        <div class="reviewer-avatar">AA</div>
+                        <div class="reviewer-info">
+                            <h4>Aadvik</h4>
+                            <p class="reviewer-meta">Wrote a review</p>
+                        </div>
+                    </div>
+                    <p class="review-text">Indigo Airlines offers great prices for travelers. Their tickets are often cheaper than other airlines, making flying easy for everyone. The services are good, and the staff is friendly. You...</p>
+                </div>
+            </div>
+
+            <!-- Flipkart -->
+            <div class="activity-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #2874f0 0%, #1a5bb8 100%); display: flex; align-items: center; justify-content: center;">
+                    <div style="color: white; font-size: 2rem; font-weight: bold;">Flipkart</div>
+                </div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="company-info">
+                            <h3>Flipkart.com (Customer Care)</h3>
+                            <p class="company-location">E-commerce Platform</p>
+                        </div>
+                        <div class="rating">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewer-section">
+                        <div class="reviewer-avatar">RI</div>
+                        <div class="reviewer-info">
+                            <h4>Ripon</h4>
+                            <p class="reviewer-meta">Wrote a review</p>
+                        </div>
+                    </div>
+                    <p class="review-text">I love shopping on Flipkart.com! They have a wide range of features that make it easy to find what I want. The website is simple to use, and I can compare many products. The quali...</p>
+                </div>
+            </div>
+
+            <!-- PhonePe -->
+            <div class="activity-card">
+                <div class="card-image" style="background: linear-gradient(135deg, #5f259f 0%, #3d0d5f 100%); display: flex; align-items: center; justify-content: center;">
+                    <div style="color: white; font-size: 2rem; font-weight: bold;">PhonePe</div>
+                </div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="company-info">
+                            <h3>Phonepe.com (Customer Care)</h3>
+                            <p class="company-location">Fort - Mumbai</p>
+                        </div>
+                        <div class="rating">
+                            <div class="stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">☆</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewer-section">
+                        <div class="reviewer-avatar">RM</div>
+                        <div class="reviewer-info">
+                            <h4>Rajkumar Maurya</h4>
+                            <p class="reviewer-meta">Wrote a review</p>
+                        </div>
+                    </div>
+                    <p class="review-text">If you've made a wrong PhonePe transaction, the first step is to check if the transaction@9200035258 is pending or completed. If it's pending, you might be able to cancel it. If...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="load-more-section">
+            <button class="load-more-btn" onclick="loadMore()">Load More</button>
+        </div>
+    </div>
+
+        <!-- Business Promotion -->
+        <section class="business-promotion">
+            <div class="container">
+                <div class="business-promo-card">
+                    <div class="business-promo-content">
+                        <h3>Connect with <span class="highlight">19.1 Crore+ Buyers</span></h3>
+                        <p>Grow Your Business in 3 Easy Steps</p>
+                        <button class="business-promo-btn">List your Business for FREE</button>
+                    </div>
+                    <div class="business-promo-image">
+                        <div class="businessman-icon">👨‍💼</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+        <button class="floating-btn advertise-btn" aria-label="Advertise with us">
+            Advertise
+        </button>
+        <button class="floating-btn listing-btn" aria-label="Free business listing">
+            Free Listing
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Business Listings</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Lead Generation</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 JustDial . All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
